@@ -1,7 +1,5 @@
-// Skills.js - Skills section of the portfolio
 import React, { useState } from 'react';
 
-// Skills component displays skill categories in an accordion
 function Skills() {
     const [open, setOpen] = useState(null);
     const skills = [

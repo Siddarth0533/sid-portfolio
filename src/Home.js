@@ -1,7 +1,5 @@
-// Home.js - Main landing page of the portfolio
 import React from 'react';
 
-// Home component displays the hero section with intro and profile image
 function Home()
 {
     return(

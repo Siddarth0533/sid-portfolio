@@ -1,7 +1,4 @@
-// About.js - About section of the portfolio
 import React from 'react';
-
-// About component shows profile, education, experience, and more
 function About() {
     return (
         <div style={{

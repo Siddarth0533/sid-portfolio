@@ -1,7 +1,6 @@
-// Projects.js - Projects section of the portfolio
 import React, { useState } from 'react';
 
-// TechBadge is a helper for displaying technology badges
+// Helper for tech badges
 const TechBadge = ({ tech }) => (
     <span style={{
         display: 'inline-block',
@@ -16,7 +15,6 @@ const TechBadge = ({ tech }) => (
     }}>{tech}</span>
 );
 
-// Projects component lists all projects in an accordion
 function Projects() {
     const [open, setOpen] = useState(null);
     const projects = [

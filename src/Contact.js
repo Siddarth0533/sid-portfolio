@@ -1,8 +1,6 @@
-// Contact.js - Contact section of the portfolio
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
 
-// Contact component provides a form to send messages via EmailJS
 function Contact() {
     const [form, setForm] = useState({ name: '', email: '', message: '' });
     const [submitted, setSubmitted] = useState(false);
